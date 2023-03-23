@@ -1,0 +1,106 @@
+:root{
+    /*Paleta de colores principales*/
+    --rojo--: #9a1922;   
+    --Blanco-hueso--: #ead2b0; /*Btn menú*/
+    /*Paleta de colores secundarios*/
+    --Amarillo--: #fdc938;
+    --Blanco--: #ffffff;
+    --Negro--: #090a0a;
+}
+
+@font-face{
+    font-family: 'radgivare';
+    src: url("../Fonts/radgivare-no/RadgivareNo1Demo_FREE_FOR_PERSONAL_USE_ONLY.otf");
+}
+@font-face{
+    font-family: "louis-george";
+    src: url("../Fonts/louis-george-caf/Louis\ George\ Cafe\ Bold\ Italic.ttf");
+}
+@font-face{
+    font-family: "louis-george";
+    src: url("../Fonts/louis-george-caf/Louis-George-Cafe-Bold-Italic.ttf")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    overflow-x: hidden;
+}
+.formulario-registro{
+    width: 400px;
+  /*   background: var(--Blanco-hueso--); */
+    padding: 30px;
+    margin: auto;
+
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family: 'louis-george';
+    color: var(--Negro--);
+}
+.formulario-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form{
+    padding-block-end: 5rem;
+}
+.controles{
+    width: 100%;
+    background: #E2E2E2;
+    padding:  10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid ;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.formulario-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+.formulario-registro a{
+    color: var(--Negro--);
+    text-decoration:  none;
+}
+.formulario-registro a:hover{
+  /*   color:--; */
+    text-decoration: underline;
+}
+.formulario-registro .botones{
+    width: 100%;
+    background:var(--rojo--);
+    border:  none;
+    padding: 12px;
+    color: var(--Blanco--);
+    margin: 16px 0;
+    font-size: 16px;
+}
+.curso{
+    background-image: linear-gradient(rgba(0, 0,0 , 0.548), rgba(0, 0, 0, 0.644)), url(../multimedia/car.jpg);
+/*     background-repeat: no-repeat; */
+    height: 657px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   /*  background-size: cover; */
+/*    padding-left: 2rem; */
+/*     padding-top: 2rem; */
+
+}
+.btn-ins{
+    width: 7rem;
+}
+img{
+    width: 90px;
+    height: 60px;
+}
+.btn-act{
+    background-color: #E2E2E2;
+    border-color: #E2E2E2;
+    width: 5rem;
+}
